@@ -1,14 +1,15 @@
 plugins {
-    id "io.silksmith.plugin" version "0.3.3"
+    id "io.silksmith.plugin" version "0.4.1"
 }
 
 
 repositories {
+
     jcenter()
     maven { url="http://dl.bintray.com/silksmith-io/silk"}
 }
 dependencies {
-    web "io.silksmith.libs:closure-base:1.0.0+smith.+"
+    web "io.silksmith.libs:closure-base:1.0.1+smith.+"
     web "io.silksmith.libs:bootstrap-sass:3.3.3+smith.+"
     web "io.silksmith.libs:jquery:1.11.2+smith.+"
 
